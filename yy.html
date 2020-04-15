@@ -1,0 +1,29 @@
+<html>
+<head>
+<script type="text/javascript">   
+function password() {   
+var testV = 1;   
+var pass1 = prompt('浣犵寽','');   
+while (testV < 1000) {   
+if (!pass1)   
+history.go(-1);   
+if (pass1 == "妗?) {//鍒濆瀵嗙爜123   
+alert('鐚滃浜?!锛?);   
+break;   
+}   
+testV+=1;   
+var pass1 =   
+prompt('鍐嶇寽:');   
+}   
+if (pass1!="password" & testV ==1000)   
+history.go(-1);   
+return " ";   
+}   
+document.write(password());   
+</script>  
+</head>
+
+<body>
+<p style="color:red; font-size:20;">鎮ㄦ€庝箞杩欎箞妫掞紒锛侊紒鍙堝張鍙?..</p>
+</boody>
+</html>
